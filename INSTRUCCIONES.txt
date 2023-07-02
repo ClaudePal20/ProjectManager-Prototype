@@ -1,0 +1,15 @@
+Para correr el proyecto, dirijase a la clase PMBOKLibraryGUI y ejecute el programa.
+La ruta de la clase es: src/main/java/org/example/bibliotecadecodigopmi/gui/PMBOKLibraryGUI.java
+
+En caso de que aparezcan errores de modulos, dirijase a
+File->Project Structure->Modules->Dependencies (hasta la derecha)->Busque los modulos que faltan y
+agreguelos o paselos a Compile
+
+Los tests no pueden correr en maven por problemas de configuracion, pero puede correrlos todos al mismo tiempo. :)
+Haga clic derecho en el proyecto, despues haga clic en correr todos los tests y listo.
+
+*NOTA: No olvide revisar que esta ejecutando en la parte superior derecha. A la izquierda del boton ejecutar
+hay una lista de configuraciones para ejecutar. Asegurese de que este ejecutando lo que desea probar.
+*NOTA 2: No fue posible correr los tests en Maven pero puede ejecutar todas las pruebas unitarias a la vez
+localmente. Haga clic derecho en el proyecto, despues haga clic en correr todos los tests y listo.
+*NOTA 3: Asegurese de correr una version 19 de Java SDK. Para cambiar la version dirijase a File->Project Structure->Project->SDK->(Cambiar la version)

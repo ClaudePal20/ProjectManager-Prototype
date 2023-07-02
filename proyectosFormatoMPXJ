@@ -1,0 +1,20 @@
+MPX,Microsoft Project for Windows,4.0,ANSI
+10,$,1,2,",",.
+11,2,0,1,8.00,40.00,$10.00/h,$15.00/h,1,0
+12,1,0,480,/,:,am,pm,20,20
+30,Project1,,,,08/06/2023,23/06/2023,0,08/06/2023,,$0.00,$0.00,$0.00,0h,0h,0h,0%,0d,0d,0d,0%,,,,,0d,0d
+60,Name,WBS,Outline Level,Cost,Start,Finish,Resource Names,Fixed,ID,Constraint Type,Unique ID,Outline Number,Summary
+61,1,2,3,30,50,51,72,80,90,91,98,99,120
+70,Proyecto1,1,1,$20000.00,08/06/2023,08/06/2023,Jose Luis,No,1,As Soon As Possible,1,1,Yes
+70,HOLA,1.1,2,,08/06/2023,23/06/2023,,No,2,As Soon As Possible,2,1.1
+71,LetsGo
+70,tAREA,1.2,2,,08/06/2023,08/06/2023,,No,3,As Soon As Possible,3,1.2
+71,DASDSA
+70,HOLA,2,1,$20000.00,08/06/2023,08/06/2023,Manager,No,4,As Soon As Possible,4,2,Yes
+70,qqqq,2.1,2,,08/06/2023,08/06/2023,,No,5,As Soon As Possible,5,2.1
+71,ok
+70,otro proyecto,3,1,$23000.00,08/06/2023,08/06/2023,jose,No,6,As Soon As Possible,6,3,Yes
+70,mas tareas,3.1,2,,08/06/2023,08/06/2023,,No,7,As Soon As Possible,7,3.1
+71,descripcion
+70,otra ,3.2,2,,08/06/2023,08/06/2023,,No,8,As Soon As Possible,8,3.2
+71,tarea
