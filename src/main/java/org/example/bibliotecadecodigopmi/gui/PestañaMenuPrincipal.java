@@ -33,6 +33,7 @@ public class PestañaMenuPrincipal {
 
     //Area de proyectos
     Button projectArea = new Button("Proyectos");
+
     //Tamanio de letra y boton
     projectArea.setFont(javafx.scene.text.Font.font("Arial", javafx.scene.text.FontWeight.BOLD, 20));
     projectArea.setPrefSize(200, 100);
@@ -44,7 +45,8 @@ public class PestañaMenuPrincipal {
         pestañaPrincipal.start(primaryStage);
     });
 
-
+    //Agregamos boton al menu opciones
+    menuOptions.getChildren().addAll(projectArea);
 
     //Agregamos todos los componentes al layout principal
     menuLayout.setTop(title);
