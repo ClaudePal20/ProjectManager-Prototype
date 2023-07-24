@@ -17,7 +17,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         assertEquals(nombre, tarea.getNombre());
     }
@@ -29,7 +29,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         assertEquals(fechaDeInicio, tarea.getFechaDeInicio());
     }
@@ -41,7 +41,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         assertEquals(fechaDeTerminado, tarea.getFechaDeTerminado());
     }
@@ -53,7 +53,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         Recurso recurso = new Recurso("Recurso 1", 10.0);
         tarea.setResources(recurso);
@@ -69,7 +69,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         assertEquals(nombre, tarea.toString());
     }
@@ -81,7 +81,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         assertEquals(descripcion, tarea.getDescripcion());
     }
@@ -93,7 +93,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         String nuevoNombre = "Tarea 2";
         tarea.setNombre(nuevoNombre);
@@ -108,7 +108,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         LocalDate nuevaFechaDeInicio = LocalDate.of(2023, 1, 2);
         tarea.setFechaDeInicio(nuevaFechaDeInicio);
@@ -123,7 +123,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         LocalDate nuevaFechaDeTerminado = LocalDate.of(2023, 1, 15);
         tarea.setFechaDeTerminado(nuevaFechaDeTerminado);
@@ -138,7 +138,7 @@ public class TareaTest {
         LocalDate fechaDeTerminado = LocalDate.of(2023, 1, 10);
         String descripcion = "Descripción de la tarea";
 
-        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion);
+        Tarea tarea = new Tarea(nombre, fechaDeInicio, fechaDeTerminado, descripcion,false);
 
         String nuevaDescripcion = "Nueva descripción de la tarea";
         tarea.setDescripcion(nuevaDescripcion);
