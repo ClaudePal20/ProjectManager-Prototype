@@ -1,5 +1,5 @@
-//Para correr en IntelliJ
-Para correr el proyecto, dirijase a la clase PMBOKLibraryGUI y ejecute el programa.
+//Instrucciones para IntelliJ
+Para ejecutar el programa, dirijase a la clase PMBOKLibraryGUI y ejecute el programa.
 La ruta de la clase es: src/main/java/org/example/bibliotecadecodigopmi/gui/PMBOKLibraryGUI.java
 
 *NOTA 1: En caso de que aparezcan errores de modulos, dirijase a
