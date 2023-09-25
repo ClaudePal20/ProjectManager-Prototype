@@ -11,8 +11,8 @@ public class PMBOKLibraryGUI extends Application{
     @Override
     public void start(Stage primaryStage){
         primaryStage.setTitle("Libreria para gestion de desarrollo de software");
-        primaryStage.setWidth(1700);
-        primaryStage.setHeight(900);
+        primaryStage.setWidth(800);
+        primaryStage.setHeight(600);
         pestañaMenuPrincipal = new PestañaMenuPrincipal();
         pestañaMenuPrincipal.setupMenu(primaryStage);
     }

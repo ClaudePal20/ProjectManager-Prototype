@@ -4,6 +4,6 @@ La ruta de la clase es: src/main/java/org/example/bibliotecadecodigopmi/gui/PMBO
 
 *NOTA 1: En caso de que aparezcan errores de modulos, dirijase a
 File->Project Structure->Modules->Dependencies (hasta la derecha)->Busque los modulos que faltan y
-agreguelos o paselos a Compile
+agreguelos.
 
-*NOTA 2: Asegurese de correr una version 19 de Java SDK. Para cambiar la version dirijase a File->Project Structure->Project->SDK->(Cambiar la version)
+En caso de faltar algun modulo, descarguelo desde Maven haciendo click en Import->Maven

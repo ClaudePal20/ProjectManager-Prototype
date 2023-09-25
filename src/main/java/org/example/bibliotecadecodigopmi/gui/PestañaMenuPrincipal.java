@@ -39,8 +39,8 @@ public class PestañaMenuPrincipal {
     projectArea.setPrefSize(200, 100);
     projectArea.setOnAction((event) -> {
         primaryStage.setTitle("Libreria para gestion de desarrollo de software");
-        primaryStage.setWidth(1700);
-        primaryStage.setHeight(900);
+        primaryStage.setWidth(800);
+        primaryStage.setHeight(600);
         pestañaPrincipal = new PestañaPrincipal();
         pestañaPrincipal.start(primaryStage);
     });
