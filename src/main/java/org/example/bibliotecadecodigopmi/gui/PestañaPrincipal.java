@@ -214,7 +214,7 @@ public class PestañaPrincipal {
 
         tabPane.getTabs().add(tab1);
         tabPane.getTabs().add(tab2);
-        Scene scene2 = new Scene(tabPane, 1200,900);
+        Scene scene2 = new Scene(tabPane, 800,600);
         primaryStage.setScene(scene2);
         primaryStage.show();
     }

@@ -230,7 +230,7 @@ public class PanelSprints {
         tabPane.getTabs().addAll(tabDesarrollo, tabPlanificacion, tabTesting);
 
         //Crear escena
-        Scene scene = new Scene(tabPane, 1000, 600);
+        Scene scene = new Scene(tabPane, 800, 600);
 
         //Mostrar ventana
         SprintsPanel.setScene(scene);
