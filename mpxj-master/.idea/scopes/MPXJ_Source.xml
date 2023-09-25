@@ -1,3 +1,0 @@
-<component name="DependencyValidationManager">
-  <scope name="MPXJ Source" pattern="net.sf.mpxj..*&amp;&amp;!net.sf.mpxj..*schema..*" />
-</component>
