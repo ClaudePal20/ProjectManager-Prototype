@@ -160,7 +160,7 @@ public class PestañaPrincipal {
         //bordeprincipal setstyle con un color claro cercano al amarillo
         bordePrincipal.setStyle("-fx-background-color: #FFFFE0;");
         bordePrincipal.setPadding(new Insets(10));
-        bordePrincipal.setPrefSize(1200, 900);
+        bordePrincipal.setPrefSize(800, 600);
         // Create the project list view
         ListView<Project> listaDeProyectos = new ListView<>();
         listaDeProyectos.setPrefWidth(150);
