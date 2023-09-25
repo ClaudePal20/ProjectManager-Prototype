@@ -6,4 +6,5 @@ La ruta de la clase es: src/main/java/org/example/bibliotecadecodigopmi/gui/PMBO
 File->Project Structure->Modules->Dependencies (hasta la derecha)->Busque los modulos que faltan y
 agreguelos.
 
-En caso de faltar algun modulo, descarguelo desde Maven haciendo click en Import->Maven
+-Para mpxj: Haga clic en la cruz -> library -> clic en from Maven -> ponga en el buscador "mpxj"
+y elija algun modulo -> click en Ok -> revise si esta en modo "Compile" -> clic en OK -> listo :)
