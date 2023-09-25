@@ -160,7 +160,7 @@ public class PestañaPrincipal {
         //bordeprincipal setstyle con un color claro cercano al amarillo
         bordePrincipal.setStyle("-fx-background-color: #FFFFE0;");
         bordePrincipal.setPadding(new Insets(10));
-        bordePrincipal.setPrefSize(800, 600);
+        bordePrincipal.setPrefSize(1200, 800);
         // Create the project list view
         ListView<Project> listaDeProyectos = new ListView<>();
         listaDeProyectos.setPrefWidth(150);
@@ -239,13 +239,13 @@ public class PestañaPrincipal {
 
 
         cuadroDetallesDeProyecto.getChildren().addAll(tituloLabel,nombreLabel, fechaDeInicioLabel, fechaDeTerminadoLabel, presupuestoLabel, projectManagerLabel);
-        cuadroDetallesDeProyecto.setSpacing(10);
+        cuadroDetallesDeProyecto.setSpacing(5);
         cuadroDetallesDeProyecto.setPadding(new Insets(10));
         cuadroDetallesDeProyecto.setAlignment(Pos.CENTER_LEFT);
 
         //PieChart para el progreso
         HBox cuadrosDeProgreso = new HBox();
-        cuadrosDeProgreso.setSpacing(10);
+        cuadrosDeProgreso.setSpacing(5);
         cuadrosDeProgreso.setPadding(new Insets(10));
 
         //PieChart para el progreso
@@ -255,8 +255,8 @@ public class PestañaPrincipal {
         pieChart.getData().add(new PieChart.Data("Completadas", 0));
         pieChart.getData().add(new PieChart.Data("Incompletas",0));
         VBox container = new VBox(pieChart);
-        container.setSpacing(10);
-        container.setPadding(new Insets(10));
+        container.setSpacing(5);
+        container.setPadding(new Insets(5));
 
         //PieChart para el progreso
         PieChart sprintsPieChart = new PieChart();
@@ -265,8 +265,8 @@ public class PestañaPrincipal {
         sprintsPieChart.getData().add(new PieChart.Data("No completados",0));
         VBox container2 = new VBox(sprintsPieChart);
 
-        container2.setSpacing(10);
-        container2.setPadding(new Insets(10));
+        container2.setSpacing(5);
+        container2.setPadding(new Insets(5));
 
         cuadrosDeProgreso.getChildren().addAll(container,container2);
 
