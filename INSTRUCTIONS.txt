@@ -1,0 +1,3 @@
+//Instrucciones para IntelliJ
+To execute the program, download the .jar file in this repository
+and click on it :)!
